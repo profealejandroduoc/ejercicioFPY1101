@@ -1,4 +1,5 @@
 from os import system
+from sumar import suma
 system ('cls')
 
 
@@ -11,8 +12,8 @@ while True:
     op=input("Ingrese una opcion")
     match op:
         case "1":
-            #sumar()
-            pass
+            sumar()
+            
         case "2":
             #restar()
             pass
